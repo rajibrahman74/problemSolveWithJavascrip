@@ -1,3 +1,7 @@
+/* If you want to execute this code, 
+             please comment out it first. step by step */
+
+
 // Problem 01: ANA TO VORI!
 // We Know, 16 Ana = 1 Vori;
 
@@ -6,7 +10,7 @@ function anaToVori(ana) {
   const vori = ana / 16;
   return vori;
 }
-let totalVori = anaToVori(144);
+const totalVori = anaToVori(144);
 console.log(totalVori);
 */
 
