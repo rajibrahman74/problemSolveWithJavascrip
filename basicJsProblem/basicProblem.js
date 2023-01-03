@@ -1,7 +1,6 @@
 /* If you want to execute this code, 
              please comment out it first. step by step */
 
-
 // Problem 01: ANA TO VORI!
 // We Know, 16 Ana = 1 Vori;
 
@@ -13,7 +12,6 @@ function anaToVori(ana) {
 const totalVori = anaToVori(144);
 console.log(totalVori);
 */
-
 
 
 
@@ -46,12 +44,62 @@ console.log(totalAmount);
 // Problem 03: PICNIC TOTAL BUDGET CALCULAATION!
 // first 100 person = 5000/-
 // Second 100 person = 4000/-
-// Third 100 person or more = 5000/-
+// Third 100 person or more = 3000/-
 
-// function picnicBudget (totalPerson) {
+/*
+function picnicBudget(totalPerson) {
+  const picnicBudgetFirst100Person = 5000;
+  const picnicBudgetSecond100Person = 4000;
+  const picnicBudgetRestPerson = 4000;
+  if (totalPerson <= 100) {
+    const totals = totalPerson * picnicBudgetFirst100Person;
+    return totals;
+  } else if (totalPerson <= 200) {
+    const first100 = 100 * picnicBudgetFirst100Person;
+    const restPerson = totalPerson - 100;
+    const second100 = restPerson * picnicBudgetSecond100Person;
+    const totals = first100 + second100;
+    return totals;
+  } else {
+    const first100 = 100 * picnicBudgetFirst100Person;
+    const second100 = 100 * picnicBudgetSecond100Person;
+    const restPerson = totalPerson - 200;
+    const restTotalPerson = restPerson * picnicBudgetRestPerson;
+    const totals = first100 + second100 + restTotalPerson;
+    return totals;
+  }
+}
 
-// }
+const totals = picnicBudget(101);
+console.log(totals);
+*/
 
+
+// An alternative solution to problem 3 is given below.
+
+
+// Problem 03: PICNIC TOTAL BUDGET CALCULAATION!
+// first 100 person = 5000/-
+// Second 100 person = 4000/-
+// Third 100 person or more = 3000/-
+
+/*
+function picnicBudget(totalPerson) {
+  if (totalPerson <= 100) {
+    const total = totalPerson * 5000;
+    return total;
+  } else if (totalPerson <= 200) {
+    const total = totalPerson * 4000;
+    return total;
+  } else if (totalPerson < Infinity) {
+    const total = totalPerson * 3000;
+    return total;
+  }
+}
+
+const totals = picnicBudget(101);
+console.log(totals);
+*/
 
 
 
