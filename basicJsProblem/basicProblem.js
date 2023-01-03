@@ -74,3 +74,6 @@ let arr = ["Mehedi", "Talha", "Nabil", "Coyon"];
 let friendsName = oddFriend(arr);
 console.log(friendsName);
 */
+
+
+// alsdfjl;sadjkflsdkjfwdj
