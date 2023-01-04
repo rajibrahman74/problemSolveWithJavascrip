@@ -2,6 +2,7 @@
 How to calculate grade in javascript function
 function declared here, */
 
+
 /*
 function getGrad(mark) {
   let latterGrad = " ";
@@ -32,11 +33,7 @@ function getGrad(mark) {
   }
   return "You Got: " + latterGrad;
 }
-*/
 
-// input your mark here,
-
-/*
 let input = getGrad(32);
 console.log(input);
 */

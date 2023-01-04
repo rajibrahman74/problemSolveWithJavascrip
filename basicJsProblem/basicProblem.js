@@ -38,6 +38,8 @@ let totalAmount = pandaCost(1, 1, 5);
 console.log(totalAmount);
 */
 
+
+
 // Problem 03: PICNIC TOTAL BUDGET CALCULAATION!
 // first 100 person = 5000/-
 // Second 100 person = 4000/-
@@ -71,7 +73,11 @@ const totals = picnicBudget(101);
 console.log(totals);
 */
 
+
+
 // An alternative solution to problem 3 is given below.
+
+
 
 // Problem 03: PICNIC TOTAL BUDGET CALCULAATION!
 // first 100 person = 5000/-
@@ -95,6 +101,9 @@ function picnicBudget(totalPerson) {
 const totals = picnicBudget(101);
 console.log(totals);
 */
+
+
+
 
 // Problem 04: FIND ODD FRIND NAME!
 
